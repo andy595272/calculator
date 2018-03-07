@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <title>Calculator</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/calculator_style.css" rel="stylesheet" >
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/calculator.js"></script>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0 use">
+    
+</head>
+<body>
+     <div id="calculator">
+         <div class="screen">
+                 <input type="text" id="screenName" name="screenName" class="screen" readonly>
+        </div>
+         <div id="btn">
+             <input type="button" id="7" onclick="jsq(this.id)" value="7" class="buttons">
+             <input type="button" id="8" onclick="jsq(this.id)" value="8" class="buttons">
+             <input type="button" id="9" onclick="jsq(this.id)" value="9" class="buttons">
+             <input type="button" id="+" onclick="jsq(this.id)" value="+" class="buttons">
+             <br>
+             <input type="button" id="4" onclick="jsq(this.id)" value="4" class="buttons">
+             <input type="button" id="5" onclick="jsq(this.id)" value="5" class="buttons">
+             <input type="button" id="6" onclick="jsq(this.id)" value="6" class="buttons">
+             <input type="button" id="-" onclick="jsq(this.id)" value="-" class="buttons">
+             <br> 
+             <input type="button" id="1" onclick="jsq(this.id)" value="1" class="buttons">
+             <input type="button" id="2" onclick="jsq(this.id)" value="2" class="buttons">
+             <input type="button" id="3" onclick="jsq(this.id)" value="3" class="buttons">
+             <input type="button" id="*" onclick="jsq(this.id)" value="*" class="buttons">
+             <br>
+             <input type="button" id="C" onclick="clearNum()" value="C" class="buttons">
+             <input type="button" id="0" onclick="jsq(this.id)" value="0" class="buttons">
+             <input type="button" id="Back" onclick="tuiGe()" value="Del" class="buttons">
+             <input type="button" id="/" onclick="jsq(this.id)" value="/" class="buttons">
+             <br>
+             <input type="button" id="eva" onclick="eva()" value="=" class="buttons">
+         </div>
+     </div>
+     <div class="theme"> 
+     <form action="">
+       <input type="radio" name="theme" value="" class="lighttheme">White
+       <input type="radio" name="theme" class="darktheme" value="" checked>Black
+     </form>
+    </div>
+</body>
+
+</html>
